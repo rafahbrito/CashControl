@@ -10,4 +10,15 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashControl.Application\CashControl.Application.csproj" />
+    <ProjectReference Include="..\CashControl.Communication\CashControl.Communication.csproj" />
+    <ProjectReference Include="..\CashControl.Exception\CashControl.Exception.csproj" />
+    <ProjectReference Include="..\CashControl.Infra\CashControl.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
