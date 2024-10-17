@@ -1,4 +1,5 @@
 using CashControl.Api.Filters;
+using CashControl.Api.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<LanguageMiddleware>();
 
 app.UseHttpsRedirection();
 
