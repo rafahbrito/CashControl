@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\CashControl.Application\CashControl.Application.csproj" />
     <ProjectReference Include="..\..\src\CashControl.Communication\CashControl.Communication.csproj" />
+    <ProjectReference Include="..\..\src\CashControl.Exception\CashControl.Exception.csproj" />
     <ProjectReference Include="..\CommonTestUtilities\CommonTestUtilities.csproj" />
   </ItemGroup>
 
